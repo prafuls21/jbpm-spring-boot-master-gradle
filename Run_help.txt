@@ -1,0 +1,54 @@
+http://localhost:8090/h2-console
+http://localhost:8090/rest/api-docs/?url=http://localhost:8090/rest/swagger.json
+executionUser/executionUser
+\new-hire-service>mvn -Dmaven.repo.local=c:\repo spring-boot:run
+
+http://localhost:8090/rest/api-docs/?url=http://localhost:8090/rest/swagger.json#!/Additional32Endpoints/autoCompleteTask
+
+
+http://localhost:8090/rest/server/containers/business-application-kjar/processes?pageSize=10&sortOrder=true
+
+
+http://localhost:8090/rest/server/containers/business-application-kjar/processes/com.mastertheboss.LicenseDemo/instances
+
+http://localhost:8090/rest/server/containers/business-application-kjar/tasks/1
+
+
+http://localhost:8090/rest/pam/tasks/1/john
+
+New Kie Cotainer body: container-id business-application-kjar-2.0-SNAPSHOT
+
+{
+  "config-items": [
+    {
+      "itemName": "RuntimeStrategy",
+      "itemValue": "SINGLETON",
+      "itemType": "java.lang.String"
+    },
+    {
+      "itemName": "MergeMode",
+      "itemValue": "MERGE_COLLECTIONS",
+      "itemType": "java.lang.String"
+    },
+    {
+      "itemName": "KBase",
+      "itemValue": "",
+      "itemType": "java.lang.String"
+    },
+    {
+      "itemName": "KSession",
+      "itemValue": "",
+      "itemType": "java.lang.String"
+    }
+  ],
+  "release-id": {
+    "group-id": "com.jbpm.demo",
+    "artifact-id": "business-application-kjar",
+    "version": "2.0-SNAPSHOT"
+  },
+  "scanner": {
+    "poll-interval": "5000",
+    "status": "STARTED"
+  }
+}
+
